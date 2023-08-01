@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "79531436550",
+    "project_id": "newgarbage1",
+    "storage_bucket": "newgarbage1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79531436550:android:12de117e24d6476aeb7187",
+        "android_client_info": {
+          "package_name": "com.example.garclouddata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79531436550-fhbe8ru6cn90vbs1d61sb0r1hbg5b9tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4EQ7vJvWSu21z5aaTugvbCOnpl7kVUbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79531436550-fhbe8ru6cn90vbs1d61sb0r1hbg5b9tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

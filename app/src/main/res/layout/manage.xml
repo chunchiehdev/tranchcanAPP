@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/main"></ImageView>
+
+    <ImageView
+        android:id="@+id/glass"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/logo"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/glass"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10sp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/clean_garbage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="清除垃圾"
+            android:background="@drawable/button_rounde2"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounde2"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="重設密碼"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/Modify_contact_information"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounde2"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="修改聯絡我們"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/Modify_About_us"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_rounde2"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="修改關於我們"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
